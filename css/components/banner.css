@@ -1,0 +1,56 @@
+.banner {
+  background-image: url("../images/background2.jpg");
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  padding: 140px 0px;
+  border-radius: 0px;
+  height: auto;
+  width: 100%;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  position: relative;
+}
+.banner video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  filter: contrast(120%);
+}
+
+.banner .container {
+  position: relative;
+  z-index: 1;
+  text-align: left;
+  margin-left: 10%;
+}
+
+.banner h1 {
+  font-size: 7rem;
+  font-weight: bold;
+  margin-bottom: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+
+}
+
+.banner p {
+  font-size: 2.5rem;
+  margin-top: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+  font-family: 'DM Sans', sans-serif;
+
+}
+
+.banner .btn-blue {
+  display: inline-block;
+  color: white;
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+  border-radius: 2rem;
+  text-decoration: none;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}

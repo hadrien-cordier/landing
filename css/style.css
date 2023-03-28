@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css2?family=DM+Sans&display=swap);
+@import url(components/container.css);
+@import url(components/button.css);
+@import url(components/avatar.css);
+@import url(components/banner.css);
+@import url(components/card.css);
+@import url(components/text.css);
+
+body {
+	font-family: 'Didot', serif;
+	font-size: 18px;
+	margin: 0;
+	background-color: #8193ad;
+	
+}
+
+h1, h2, h3 {
+	font-family: 'DM Sans', sans-serif;
+	font-weight: bold;
+	margin: 0;
+}
+
+a {
+	font-family: 'DM Sans', sans-serif;
+	text-decoration: none;
+	color: #2A2A2A;
+	font-weight: bold;
+}
